@@ -52,5 +52,5 @@ include "header.php"?>
     ?>
 
     <h3>4. Take a screenshot that verifies, you have set up the development environment and include it as an image in ex1.php.</h3>
-    <img style= "width: 800px" src="image1.png" alt="Image1">
+    <img style= "width: 800px" src="Images/image1.png" alt="Image1">
 <?php include "footer.php"?>
