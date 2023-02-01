@@ -21,7 +21,7 @@ include "header.php"?>
         echo date("F j, Y, g:i a");
     ?>
 
-    <h3>3.4 Put this variable as a title marked as h1 (heading 1) in your HTML document.</h3>
+    <h3>3.4 $title = "PHP is interesting”. Put this variable as a title marked as h1 (heading 1) in your HTML document. </h3>
 
     <h1><?php echo $title ?></h1>
 
