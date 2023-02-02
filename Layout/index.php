@@ -1,7 +1,7 @@
 <?php 
 include "header.php"?>
 
-<h1>This is Home Page</h1>
+<h1>This is Index Page</h1>
 
 <p>Some content</p>
 
