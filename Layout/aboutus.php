@@ -1,6 +1,6 @@
 <?php include "header.php" ?>
-<h1>Goooooood evening</h1>
+<h1>This is About Us Page</h1>
 
-<p>Andrei KOZEL</p>
+<p>Some content</p>
 
 <?php include "footer.php" ?>

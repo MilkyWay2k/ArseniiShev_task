@@ -4,13 +4,13 @@
         <div class="col columns">
           <ul class="navbar-nav l">
             <li class="nav-item">
-              <a class="nav-link active footer-link" aria-current="page" href="shop.html">Shop</a>
+              <a class="nav-link active footer-link" aria-current="page" href="ex1.php">Task 1</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active footer-link" aria-current="page" href="blog.html">Blog</a>
+              <a class="nav-link active footer-link" aria-current="page" href="aboutus.php">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active footer-link" aria-current="page" href="index.html#about">About&nbsp;Us</a>
+              <a class="nav-link active footer-link" aria-current="page" href="contactus.php">Contact Us</a>
             </li>
           </ul>
           <div class="media">

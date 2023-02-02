@@ -24,7 +24,7 @@
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid my-class-with-padding">
         <div class="cotainer-fluid img-1">
-          <a class="navbar-brand" href="#"></a>
+          <a class="navbar-brand" href="index.php"></a>
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,16 +33,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 links">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="shop.html">Shop</a>
+              <a class="nav-link active" aria-current="page" href="ex1.php">Task 1</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="blog.html">Blog</a>
+              <a class="nav-link active" aria-current="page" href="aboutus.php">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#contacts">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#about">About&nbsp;Us</a>
+              <a class="nav-link active" aria-current="page" href="contactus.php">Contact</a>
             </li>
           </ul>
           <ul class="navbar-nav mb-2 mb-lg-0 cart">
@@ -51,7 +48,7 @@
                   height="30"></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="cart.html"><img src="images/Icons/Shoppingcart.png" alt="cart"
+              <a class="nav-link active" href="#"><img src="images/Icons/Shoppingcart.png" alt="cart"
                   width="30" height="30"></a>
             </li>
           </ul>
