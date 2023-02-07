@@ -15,6 +15,9 @@
               <a class="nav-link active footer-link" aria-current="page" href="ex2.php">Exercise 2</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link active footer-link" aria-current="page" href="variable.php">Exercise 3</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link active footer-link" aria-current="page" href="aboutus.php">About&nbsp;Us</a>
             </li>
             <li class="nav-item">
@@ -71,7 +74,13 @@
         <div class="row">
           <div class="d-flex justify-content-center">
             <div class="col-md-12 text-center">
-              <p>&copy; 2023 Skate Shop</p>
+              <?php
+              echo "&copy; 2023 Skate Shop<br>";
+              $file = $_SERVER["SCRIPT_NAME"];
+              $break = Explode('/', $file);
+              $pfile = $break[count($break) - 1];
+              echo "This page was last modified on " . date("F d Y H:i:s", filemtime($pfile));
+              ?>
             </div>
           </div>
         </div>
