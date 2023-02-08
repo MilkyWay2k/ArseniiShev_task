@@ -4,7 +4,8 @@
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>
-    <?php echo $title ?>
+      <?php $title = "PHP is interesting" ?>
+      <?php echo $title ?>
     </title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <!-- Bootstrap CSS -->
@@ -20,7 +21,7 @@
     <div class="row">
   <nav class="navbar navbar-expand-lg" style="background-color: rgb(65, 7, 109);" >
   <div class="container-fluid">
-    <a class="navbar-brand" href="ex1.php">Arsenii</a>
+    <a class="navbar-brand" href="index.php">Arsenii</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -29,14 +30,20 @@
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="index.php">Index</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="ex1.php">Exercise 1</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="ex2.php">Exercise 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="variable.php">Exercise 3</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false" style="color: white;">
+              Tasks
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="ex1.php">Exercise 1</a></li>
+            <li><a class="dropdown-item" href="ex2.php">Exercise 2</a>
+          </li>
+          <li><a class="dropdown-item" href="variable.php">Exercise 3</a>
+          </li>
+          <li><a class="dropdown-item" href="controlflow.php">Exercise 4</a>
+          </li>
+          </ul>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="contactus.php">Contact Us</a>

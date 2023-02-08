@@ -4,7 +4,13 @@
 <footer style="background-color: rgb(65, 7, 109); color: white;">
 
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2023 Arsenii
+  <div class="footer-copyright text-center py-3">© 2023 Arsenii <br>
+    <?php 
+                  $file = $_SERVER["SCRIPT_NAME"];
+                  $break = Explode('/', $file);
+                  $pfile = $break[count($break) - 1];
+                  echo "This page was last modified on " . date("F d Y H:i:s", filemtime($pfile));
+    ?>
   </div>
   <!-- Copyright -->
 

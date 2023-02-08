@@ -8,14 +8,20 @@
       <div class="row">
         <div class="col columns">
           <ul class="navbar-nav l">
-            <li class="nav-item">
-              <a class="nav-link active footer-link" aria-current="page" href="ex1.php">Exercise 1</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active footer-link" aria-current="page" href="ex2.php">Exercise 2</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active footer-link" aria-current="page" href="variable.php">Exercise 3</a>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false" style="color: #001F23">
+                  Tasks
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="ex1.php">Exercise 1</a></li>
+                <li><a class="dropdown-item" href="ex2.php">Exercise 2</a>
+              </li>
+              <li><a class="dropdown-item" href="variable.php">Exercise 3</a>
+              </li>
+              <li><a class="dropdown-item" href="controlflow.php">Exercise 4</a>
+              </li>
+              </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link active footer-link" aria-current="page" href="aboutus.php">About&nbsp;Us</a>
