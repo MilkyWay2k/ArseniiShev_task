@@ -14,14 +14,14 @@
                   Tasks
               </a>
               <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="ex1.php">Exercise 1</a></li>
-                <li><a class="dropdown-item" href="ex2.php">Exercise 2</a>
+              <li><a class="dropdown-item" href="../Layout/ex1.php">Exercise 1</a></li>
+                <li><a class="dropdown-item" href="../Layout/ex2.php">Exercise 2</a>
               </li>
-              <li><a class="dropdown-item" href="variable.php">Exercise 3</a>
+              <li><a class="dropdown-item" href="../Layout/variable.php">Exercise 3</a>
               </li>
-              <li><a class="dropdown-item" href="controlflow.php">Exercise 4</a>
+              <li><a class="dropdown-item" href="../Layout/controlflow.php">Exercise 4</a>
               </li>
-              <li><a class="dropdown-item" href="array.php">Exercise 5</a>
+              <li><a class="dropdown-item" href="../Layout/array.php">Exercise 5</a>
               </li>
               </ul>
             </li>
@@ -34,20 +34,20 @@
           </ul>
           <div class="media">
             <a href="#">
-              <img src="images/Icons/Instagram.png" alt="ig" width="30" height="30">
+              <img src="../Layout/images/Icons/Instagram.png" alt="ig" width="30" height="30">
             </a>
             <a href="#">
-              <img src="images/Icons/Facebook.png" alt="fb" width="30" height="30">
+              <img src="../Layout/images/Icons/Facebook.png" alt="fb" width="30" height="30">
             </a>
             <a href="#">
-              <img src="images/Icons/Twitter.png" alt="tw" width="30" height="30">
+              <img src="../Layout/images/Icons/Twitter.png" alt="tw" width="30" height="30">
             </a>
           </div>
         </div>
         <div class="col columns">
           <div class="PM">
             <h2>Payment methods</h2>
-            <img src="images/Icons/PaymentMethods.png" alt="payment">
+            <img src="../Layout/images/Icons/PaymentMethods.png" alt="payment">
           </div>
         </div>
         <div class="col columns">

@@ -84,9 +84,9 @@ for ($i = 0; $i < $n4; $i++) {
 <h3>5. List all your favorite colors and their hexadecimal equivalents.</h3>
 <?php 
 $colors = array (
-    "Red" => "#FF0000",
-    "Green" => "#00FF00",
-    "Blue" => "#0000FF"
+    "Red :" => "#FF0000",
+    "Green: " => "#00FF00",
+    "Blue :" => "#0000FF"
 );
 foreach ($colors as $key => $value) {
     echo "$key \t $value <br>";
@@ -124,7 +124,9 @@ echo $temp_array[$i].", ";
 }
 echo "<br>List of five highest temperatures :";
 // explain the following loop:
-// Selects the 5 highest temperatures from the list above and prints them.
+// This is a <strong>for loop</strong>. This for-loop first uses \$temp_array_length variable which is essentially the total number of values in the array.
+// With this method, it is important to note that the array has already been sorted by ascending order. This loop is now attempting to print out the last 5 values (the 5 highest values)
+// For each value of the array starting from the 5th last value until the last value, it prints out that value and a comma.
 for ($i=($temp_array_length-5); $i< ($temp_array_length); $i++)
 {
 echo $temp_array[$i].", ";
