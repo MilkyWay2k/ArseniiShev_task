@@ -14,6 +14,7 @@
     <?php $title = "PHP is interesting" ?>
     <?php echo $title ?>
   </title>
+  <script src="../Layout/site.js"></script>
 
   <link rel="icon" href="images/Skatefavicon-16x16.png" type="image/x-icon">
 </head>

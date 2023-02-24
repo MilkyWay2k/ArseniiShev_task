@@ -21,9 +21,21 @@ include "header.php"?>
         echo date("F j, Y, g:i a");
     ?>
 
+    <script>
+        document.write("<br>Hello world<br>");
+    </script>
+    <noscript>
+        Please eneble JavaScript to work it
+    </noscript>
+    <input type="button" onclick="hello()" value="Click Me">
+
     <h3>3.4 $title = "PHP is interesting”. Put this variable as a title marked as h1 (heading 1) in your HTML document. </h3>
 
     <h1><?php echo $title ?></h1>
+    <script>
+        // window.alert("This will trigger an alert box");
+        // window.alert(5+10);
+    </script>
 
     <h3>3.5 Use HTML table into echo and include 3 columns S.n., Name, and grade.</h3>
     <?php 
@@ -51,6 +63,29 @@ include "header.php"?>
       </table>"
     ?>
 
+    <button onclick="add()">
+        Click to Add
+    </button>
+    <hr>
+    <p id="place1" style="color: red; background-color: yellow;"> </p>
+    <span id="place2" style="color: red; background-color: green;"></span>
+    <script>
+        document.getElementById("place1").innerHTML = "This will go to place1";
+        document.getElementById("place2").innerHTML = "This will go to span";
+    </script>
+
     <h3>4. Take a screenshot that verifies, you have set up the development environment and include it as an image in ex1.php.</h3>
     <img style= "width: 800px" src="Images/image1.png" alt="Image1">
+
+    <h2>Changing background</h2>
+    <form>
+        <input type="color" name="background" onchange="changeColor()">
+    </form>
+    <hr>
+    <select id="bgchoice" onchange="changeBG()">
+    <option></option>
+    <option value="red">Red</option>
+    <option value="ivory">Ivory</option>
+    <option value="pink">Pink</option>
+</select>
 <?php include "footer.php"?>
